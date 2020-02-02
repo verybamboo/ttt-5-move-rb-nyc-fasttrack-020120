@@ -7,6 +7,6 @@ require_relative '../lib/move.rb'
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 puts "Player X, where would you like to go
-
+input = gets.input
 
 display_board(board)
