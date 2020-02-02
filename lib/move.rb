@@ -15,6 +15,7 @@ end
 
 def move(board, index, char = "X")
   board[index] = char
+  return board
 end
 
 #def get_move
