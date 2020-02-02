@@ -10,7 +10,7 @@ board = Array.new(9, " ")
 
 def input_to_index(user_input)
   move_index = user_input.strip.to_i - 1
-  
+  return move_index
 end
 
 def move(board, index, char = "X")
