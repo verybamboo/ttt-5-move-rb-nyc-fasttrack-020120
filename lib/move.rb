@@ -6,8 +6,6 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-board = Array.new(9, " ")
-
 def input_to_index(user_input)
   move_index = user_input.strip.to_i - 1
   return move_index
